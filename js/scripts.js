@@ -112,7 +112,7 @@ function enviarFormulario2() {
     var email = document.getElementById('email1').value;
     
     var mensaje = `Hola, Soy: \n ${nombre} con el numero telefono: \n ${celular} y con el Email: \n ${email} le envio este mensaje \n ${message}`;
-    var numeroTelefono = '904813338';  // Reemplaza con tu número de teléfono de WhatsApp
+    var numeroTelefono = '902759736';  // Reemplaza con tu número de teléfono de WhatsApp
     var enlaceWhatsApp = `https://wa.me/${numeroTelefono}?text=${encodeURIComponent(mensaje)}`;
     window.location.href = enlaceWhatsApp;
 }
